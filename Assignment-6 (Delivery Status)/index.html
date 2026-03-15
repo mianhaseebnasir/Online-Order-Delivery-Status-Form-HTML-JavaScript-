@@ -1,0 +1,38 @@
+<!-- Boiler-Plate Code -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Order Delivery Status</title>
+ </head>
+ <body>
+  <!-- Heading Tag -->
+   <h1>Online Order Delivery Status:</h1>
+
+   <!-- Form Tag -->
+    <form >
+
+      <!-- Label,Line-Brake and Input Tag + Attributes(for,placeholder,name,id,required) -->
+      <label for="client">Customer Name</label>
+      <input type="text" name="client" id="client" required placeholder="Enter the customer-name"><br>
+
+     
+      <!-- Label,Line-Brake and Input Tag + Attributes(for,placeholder,name,id,required) -->
+      <label for="city">City Name</label>
+      <input type="text" name="city" id="city" required placeholder="Enter the city-name"><br>
+
+      
+      <!-- Label,Line-Brake and Input Tag + Attributes(for,placeholder,name,id,required) -->
+      <label for="paymentStatus">Payment-Status</label>
+      <input type="text" name="paymentStatus" id="paymentStatus" required placeholder="paid or pending"><br>
+
+      <!-- Button Tag + Attributes(type) -->
+       <button type="submit" onclick="getOrder()">Submit</button>
+    </form>
+
+    <!-- Linking HTML file with Javascript file -->
+     <script src="./script.js"></script>
+  
+ </body>
+ </html>
