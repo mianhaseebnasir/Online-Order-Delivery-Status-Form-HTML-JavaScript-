@@ -1,5 +1,5 @@
 <h1>Online Order Delivery Status Form </h1><br>
-<h1>📖 Project Overview :</h1><br>
+<h1>📖 Project Overview </h1><br>
 The Online Order Delivery Status Form is a simple web application designed to collect and manage basic order delivery information from users.<br>
 This project demonstrates the use of HTML form elements and JavaScript integration to capture user input such as customer name, city name, and payment status.<br>
 It is an ideal beginner-level project for students who want to understand how web forms work and how JavaScript functions can be triggered from HTML events.<br>
